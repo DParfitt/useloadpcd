@@ -1,0 +1,55 @@
+{
+  "name": "useloadpcd",
+  "version": "1.0.1",
+  "description": "A .pcd file loader for React with React hooks and Three.js.",
+  "repository": "https://github.com/DParfitt/useloadpcd",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "jest": "jest",
+    "lint": "tslint --project tsconfig.json --config tslint.json",
+    "lint:fix": "npm run prettier && tslint 'src/*.ts*' --project tsconfig.json --fix",
+    "prettier": "prettier --write \"./**/*.{js,jsx,ts*,md,graphql,json}\"",
+    "test": "npm run lint && npm run type-check",
+    "type-check": "tsc --project tsconfig.json --noEmit "
+  },
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "React",
+    "Three.js",
+    "React",
+    "Hooks",
+    "PCD"
+  ],
+  "author": "Dillon Parfitt",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "semi": true
+  },
+  "peerDependencies": {
+    "react": "16.8.0-alpha.1",
+    "react-dom": "16.8.0-alpha.1",
+    "three": "^0.101.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.120",
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "@types/three": "^0.93.19",
+    "jest": "^24.1.0",
+    "lodash": "^4.17.11",
+    "prettier": "^1.16.4",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "three": "^0.101.1",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.1",
+    "typescript-tslint-plugin": "^0.3.1"
+  }
+}
