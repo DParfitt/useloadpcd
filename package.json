@@ -1,6 +1,6 @@
 {
   "name": "useloadpcd",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A .pcd file loader for React with React hooks and Three.js.",
   "repository": "https://github.com/DParfitt/useloadpcd",
   "main": "dist/index.js",
@@ -26,12 +26,12 @@
   "prettier": {
     "printWidth": 80,
     "singleQuote": true,
-    "semi": true
+    "semi": true,
+    "tabWidth": 4
   },
   "peerDependencies": {
-    "react": "16.8.0-alpha.1",
-    "react-dom": "16.8.0-alpha.1",
-    "three": "^0.101.1"
+    "react": "16.8.1",
+    "react-dom": "16.8.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.0",
@@ -44,12 +44,14 @@
     "prettier": "^1.16.4",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",
-    "three": "^0.101.1",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.1",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.1",
     "typescript-tslint-plugin": "^0.3.1"
+  },
+  "dependencies": {
+    "three": "^0.101.1"
   }
 }
