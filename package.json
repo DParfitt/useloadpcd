@@ -1,6 +1,6 @@
 {
   "name": "useloadpcd",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A .pcd file loader for React with React hooks and Three.js.",
   "repository": "https://github.com/DParfitt/useloadpcd",
   "main": "dist/index.js",
