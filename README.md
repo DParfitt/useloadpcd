@@ -30,7 +30,7 @@ import React from 'react';
 import useLoadPCD from 'useloadpcd';
 
 const App = () => {
-    const [pcdRef, status] = useLoadPCD('./simple.pcd');
+    const [pcdRef, status] = useLoadPCD('./simple.pcd', {});
 
     return <div ref={pcdRef} style={{ width: 800, height: 800 }} />;
 };
