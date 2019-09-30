@@ -56,7 +56,7 @@ const load = (
                         );
                     }
 
-                    (sceneStyle as any).material.size = 0.1;
+                    (sceneStyle as any).material.size = config.particalSize
 
                     if (canvas.current !== null) {
                         canvas.current.appendChild(renderer.domElement);
